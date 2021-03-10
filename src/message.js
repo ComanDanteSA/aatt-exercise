@@ -8,7 +8,7 @@ const sendRes = (status, body) => {
     headers: {
       "Content-Type": "application/json"
     },
-    body: JSON.stringify({ message: "Automation for the People", timestamp: Math.round(Date.now()/1000)})
+    body: JSON.stringify({ message: "Automate all the things!", timestamp: Math.round(Date.now()/1000)})
   };
   return response;
 };
