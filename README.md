@@ -25,7 +25,7 @@ xxxxxxxxxx
 
 ### Prerequisites:
 
-If you haven't yet, clond down the repo and install the required modules by:
+If you haven't yet, clone down the repo and install the required modules by:
 ```
 npm install
 ```
