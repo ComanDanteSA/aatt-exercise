@@ -25,12 +25,9 @@ xxxxxxxxxx
 
 ### Prerequisites:
 
-Install the modules needed for testing:
+If you haven't yet, clond down the repo and install the required modules by:
 ```
-npm install --global mocha
-npm install --global chai
-npm install --save-dev chai
-npm install --global request-promise
+npm install
 ```
 
 ### Execute Unit Test
@@ -51,12 +48,6 @@ Linux/Bash/Mac
 export URI="endpointurl"
 ```
 
-Windows CMD
-
-```
-set URI=endpointpath
-```
-
 Windows Powershell
 
 ```
@@ -71,7 +62,7 @@ mocha test\message.integration.test.js
 
 ## Cleanup
 TODO
-To removed the deployment execute:
+To remove the deployment execute:
 
 ```
 xxxxxxxxxxxxxxx

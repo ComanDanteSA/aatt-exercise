@@ -11,11 +11,11 @@ app.get('/', function(req, res) {
     request(options, function(err, res, body) {  
     });
     var timestamp = + new Date();
-    var miniproject = ({
+    var aattexercise = ({
         message: 'Automation for the People',
         timestamp: timestamp
     })
-    res.json(miniproject) // returning the response.
+    res.json(aattexercise) // returning the response.
   });
 
 app.listen(3000);
