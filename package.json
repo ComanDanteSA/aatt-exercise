@@ -1,0 +1,28 @@
+{
+  "name": "aatt-exercise",
+  "version": "1.0.0",
+  "description": "Automate All The Things Exercise",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ComanDanteSA/aatt-exercise.git"
+  },
+  "author": "DMartinez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ComanDanteSA/aatt-exercise/issues"
+  },
+  "homepage": "https://github.com/ComanDanteSA/aatt-exercise#readme",
+  "dependencies": {
+    "chai": "^4.3.3",
+    "express": "^4.17.1",
+    "mocha": "^8.3.1",
+    "request-promise": "^4.2.6"
+  }
+}
